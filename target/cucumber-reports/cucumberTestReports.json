@@ -1,0 +1,129 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-25T20:40:25.819Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11286099073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify new coupon is created",
+        "description": "",
+        "id": "admin-coupon-page-test;verify-new-coupon-is-created",
+        "after": [
+          {
+            "result": {
+              "duration": 66668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6151325304,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens Admin home page",
+            "match": {
+              "location": "AdminHomePage_STEPS.user_opens_Admin_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3389548853,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logsin with admin account",
+            "match": {
+              "location": "AdminHomePage_STEPS.user_logsin_with_admin_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9026465637,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to Coupons page",
+            "match": {
+              "location": "AdminHomePage_STEPS.user_navigate_to_Coupons_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12736764777,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Creates a new coupon",
+            "match": {
+              "location": "AdminCouponPage_STEPS.creates_a_new_coupon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5017025545,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verifies coupon is created",
+            "match": {
+              "location": "AdminCouponPage_STEPS.verifies_coupon_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adminCouponPage"
+          },
+          {
+            "name": "@addingCoupon"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Admin Coupon Page test",
+    "description": "",
+    "id": "admin-coupon-page-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/adminCouponPage.feature",
+    "tags": [
+      {
+        "name": "@adminCouponPage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
